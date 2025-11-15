@@ -1,0 +1,4 @@
+case_id,user_id,risk,fraud_prob,anomaly_score,action,rationale,features,ts
+T00001-1730,U0007,0.91,0.88,0.73,Review,"High amount, new device, geo mismatch.","{""amount"": 245.7, ""country"": ""NG"", ""device"": ""web""}",1730000000
+T00002-1731,U0021,0.83,0.72,0.8,Review,Velocity spike in last hour.,"{""amount"": 189.2, ""country"": ""DE"", ""device"": ""ios""}",1730000030
+T00003-1732,U0045,0.79,0.69,0.77,Review,Cross-border attempt after multiple declines.,"{""amount"": 120.1, ""country"": ""GB"", ""device"": ""android""}",1730000060
