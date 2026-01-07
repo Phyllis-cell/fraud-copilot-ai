@@ -44,3 +44,6 @@ Then launch Streamlit and toggle "Use AWS DynamoDB" in the sidebar. The app will
 ```bash
 streamlit run streamlit_app.py
 ```
+
+---
+This is a personal project created outside of my employment to help other builders learn how to design AI-powered applications on AWS.
