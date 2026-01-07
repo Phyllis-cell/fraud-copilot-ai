@@ -1,5 +1,25 @@
-
 # Fraud Copilot – Analyst Console (Streamlit)
+
+**Author:** Phyllis Barikisu Snyper  
+**Project Type:** Personal, non-work community project
+
+## What You’ll Learn
+This project demonstrates how to design a GenAI-powered analyst console using AWS services. Builders will learn:
+- How to integrate Amazon Bedrock into an application workflow
+- How to design AI-generated decision rationales for fraud analysis
+- How to switch between local inference and AWS-backed services
+- How to structure an AI assistant for real-world decision support
+
+## Architecture Overview
+Fraud Copilot is built as a lightweight analyst console using Streamlit.
+
+In AWS mode:
+- Amazon DynamoDB stores fraud case records
+- Amazon Bedrock generates multilingual AI rationales
+- The application toggles between local and AWS-backed execution
+
+This design allows builders to experiment locally while understanding how to scale to AWS services.
+
 
 Run locally (no AWS needed) or connect to AWS Bedrock + DynamoDB if configured.
 
